@@ -1,0 +1,137 @@
+.nav-link {
+    color: #43464B;
+    font-size: 25px;
+    margin-right: 3rem ;
+    font-weight: 100;
+    display: inline-block;
+    position: relative;
+}
+
+
+
+body {
+    background: #43464B;
+}
+
+#jumbo {
+    background: url('/www/imageedit_1_6366457246.png');
+    width: 100%;
+    height: 54rem;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    filter: blur(0px);
+    top: 0;
+    left: 0;
+    color: aliceblue;
+    font-weight: 100;
+}   
+
+.container {
+    height: 50%;
+    width: 50%;
+    margin: 10%;
+    text-align: center;
+
+}
+
+.team{
+    text-align: center;
+    font-weight:100;
+    margin-bottom: 20px;
+    border-bottom: 2px solid orange;
+    width: 50%;
+    margin-left:25%;
+    margin-right: 25%;
+
+}
+
+.container p {
+    font-size: 30px;
+
+}
+.container h1 {
+    font-size: 100px;
+
+}
+
+.card {
+    width :23rem;
+    margin: 25px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+.card a{
+    width: 90%;
+    height: 3rem;
+    font-size: 20px;
+    background-color: #EC5800;
+    border-radius: 15px;
+    color: white;
+    border: none;
+}
+.card a:hover {
+    width: 100%;
+    background-color: #43464B;
+  
+    font-size: 22px;
+}
+.column {
+    float: left;
+    width: 33%;
+    padding: 0 10px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row {margin: 0 -5px;}  
+
+
+#row {
+    background-color:  #F8F8F8;
+}
+
+.teamh1 {
+    font-size: 5rem;
+}
+
+
+.modal-body img{
+    display: inline-block;
+    margin-left:15%
+
+}
+
+.modal-body p{
+    margin: 2rem;
+}
+
+.modal-body {
+
+    padding:30px;
+    font-size:20px;
+    background-color: aliceblue;
+}
+
+#exampleModalCenter {
+    box-shadow: #43464B 20px 20px;
+}
+
+
+.modal-header {
+    background-color: #EC5800;
+    color: #F8F8F8;
+}

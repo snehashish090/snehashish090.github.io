@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+.location-map{
+    border: 1px solid #ccc;
+    height: 0;
+    margin: 0 auto 20px;
+    overflow: hidden;
+    padding-bottom: 74%;
+    position: relative;
+}
+.location-map iframe {
+    height: 100% !important;
+    left: 0;
+    position: absolute;
+    width: 100% !important;
+}
+
+
+/*===============fancybox style============*/
+
+.fancybox-container {
+    z-index: 10000000; !important;
+}

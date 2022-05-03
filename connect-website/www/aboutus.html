@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="/www/css/style1.css">
+    <link rel="stylesheet" href="/www/css/style2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        .nav-link:hover{
+          background-color: aliceblue;
+        }
+  
+        .nav-link:after{
+          content: '';
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: #0087ca;
+      transform-origin: bottom right;
+      transition: transform 0.25s ease-out;
+        }
+  
+        .navlink:hover:after {
+          transform: scaleX(1);
+        transform-origin: bottom left;
+        }
+      </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/www/index.html">
+            <img id = "logo" src="/www/img/connect-logo-removebg-preview.png" width="250" height="75" alt="">
+          </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">About us <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/www/clients.html">Clients</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/www/sectors.html">Sectors</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" href="/www/contactus.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+      <div id = "jumbo" class="jumbotron jumbotron-fluid">
+        <div id = "bg"></div>
+        <div class="container">
+          <h1 class="display-4">About Us</h1>
+          <p class="lead">Connect is an organization that looks for beter ways to bring out perfection, inovation and sustainability in every one of our projects. We look for a brighter future where we can achieve the best ways to perfection, inovation and sustainabiity with simplicity</p>
+          
+        </div>
+      </div>
+      
+      
+      <div id = "row" class = "row justify-content-center">
+        <div class = "team"> <h1 class = "teamh1"> Our Team </h1> </div>
+          <div id = "column" class = "col-auto mb-3">
+            <div class="card">
+                <img src="/www/img/suman-laskar-removebg-preview.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Mr. Suman Laskar</h3>
+                  <p class="card-text">Co-founder and Director</p>
+                  <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Read more about him</a>
+                </div>
+              </div>
+          </div>
+
+          <div id = "column" class = "col-auto mb-3">
+            <div class="card">
+                <img src="/www/img/ajit-mani-removebg-preview.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Mr. Ajit Mani</h3>
+                  <p class="card-text">Senior Advisor</p>
+                  <a href="#" class="btn btn-primary"  data-toggle="modal" data-target="#exampleModalCenter2">Read more about him</a>
+                </div>
+              </div>
+        </div>
+
+        <div class = "col-auto mb-3">
+              
+            <div id = "column" class="card">
+                <img src="/www/img/raj-kumar-removebg-preview.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Mr. Raj Kumar</h3>
+                  <p class="card-text">Co-founder</p>
+                  <a href="#" class="btn btn-primary"  data-toggle="modal" data-target="#exampleModalCenter3">Read more about him</a>
+                </div>
+              </div>
+              
+        </div>
+      </div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Suman Laskar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="/www/img/suman-laskar-removebg-preview.png" alt="">
+        <p>Started his career with PRADAN after completion of engineering degree from NIT, Nagpur. Later worked with BASIX in different capacities especially in the areas of consulting and training. After cofounding CONNECT in 2015, Suman assisted several institutions like BRAC International, World Bank, SIDBI, CMF, Harsha Trust, FES, etc. in the areas of financial inclusion and livelihood. He has travelled extensively across India, South-Asia & East Africa. His key interest is sustainable community-based business ent erprise development. </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Mr. Ajit Mani</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="/www/img/ajit-mani-removebg-preview.png" alt="">
+        <p> A pass out of prestigious Indian Institute of Management (IIM), Bangalore and pioneer in Monitoring &amp; Evaluation (M&E) space in India with more than three decades of experience. He has accomplished several evaluation projects with Bilateral and Multilateral Institutions, International and Indian NGOs, Government Departments. His keen interest in history makes him special amongst his circles and a keen traveler to several historical places. He is currently an Adjunct Professor (Project Management) at KIIT School of Rural Management, Bhubaneswar.</p> 
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Mr. Raj Kumar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="/www/img/raj-kumar-removebg-preview.png" alt="">
+        <p> Raj has done his PGDRM from IRMA, India. He has over 20 years of experience gained through projects in South Asia, Southeast Asia, and Africa. His focus has been on agriculture value chain development and financial inclusion. He is a Certified Commodity Professional, Multi-Commodity Exchange Project Identification, Development, and Management. Raj is on the board of CONNECT and VietED group that has business lines spreading into agri-business, inclusive finance and development advisory. Raj is also the co-founder of CONNECT's sister concerns Vasudha Good Harvest LLP and Vistaar Inclusive Growth Pvt. Ltd. He has earlier worked with Microsave, National Housing Bank, etc. in senior positions. He has travelled across the globe in accomplishing consulting assignment with various types of institutes from the Government, non-Government, multilateral agencies, banks, central banks, etc..</p> 
+      </div>
+    </div>
+  </div>
+</div>
+
+      <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">Company Name © 2018</p>
+        </footer>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
